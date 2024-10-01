@@ -1,0 +1,1019 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: #e0e0ff;
+    padding: 10px;
+}
+
+.Main {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px; /* Adiciona espaço abaixo da div Main */
+}
+
+.Main h1 {
+    color: #333;
+    font-size: 30px;
+}
+
+.Main h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+.background-color-Sobre {
+    background: #e0e0ff;
+    padding: 50px 20px;
+}
+
+.main-sobre {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.main-sobre img {
+    width: 50%;
+    margin-right: 20px
+}
+
+
+.Text-sobre h5 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Text-sobre p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.Text-depoimento p {
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.background-color-Sobre img {
+    width: 40%; /* Define a largura da imagem como 50% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+.background-color-Sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px; /* Ajuste conforme necessário */
+}
+
+#titulo02 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0ff; /* Ajuste conforme necessário */
+}
+
+.background-color-Sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-sobre {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.Text-sobre {
+    margin: 0 auto;
+}
+
+
+.benefit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    justify-content: center; /* Centraliza os itens no contêiner */
+}
+
+@media (min-width: 700px) {
+    .benefit-grid {
+        grid-template-columns: repeat(3, 1fr); /* Alterado para 3 colunas em telas maiores */
+}
+
+.benefit-item {
+    background-color: #e0e0ff;
+    border-radius: 10px;
+    width: 200px; /* Definindo largura */
+    height: 180px; /* Definindo altura */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease; /* Transição suave para o efeito */
+}
+
+.benefit-item:hover {
+    transform: scale(1.05); /* Leve aumento de tamanho */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra maior ao passar o mouse */
+}
+
+.benefit-item img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+.benefit-item p {
+    font-size: 18px;
+    color: #000000;
+}
+
+.google-reviews-link {
+    display: inline-block;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.google-reviews-link:hover {
+    background-color: #357AE8;
+}
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial i {
+    color: #4285F4;
+    margin-bottom: 10px;
+}
+
+.testimonial p {
+    margin: 10px 0;
+    font-style: italic;
+    color: #333;
+}
+
+.reviewer {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+
+.google-reviews-link {
+    display: inline-block;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.google-reviews-link:hover {
+    background-color: #357AE8;
+}
+
+@media (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
+.step-image {
+    width: 1702px;
+    height: 522px;
+    object-fit: cover; /* Mantém a proporção da imagem e preenche o contêiner */
+}
+
+.background-color-Sobre {
+    background-color: #f7fdf3;
+    padding: 50px 20px; /* Ajuste conforme necessário */
+}
+
+.main-sobre {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+    max-width: 1200px; /* Largura máxima para a seção */
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+
+}
+
+.main-sobre img {
+    max-width: 50%; /* Ajuste conforme necessário */
+    height: auto;
+    border-radius: 10px;
+}
+
+.Text-sobre {
+    max-width: 50%; /* Ajuste conforme necessário */
+}
+
+.Text-sobre h2 {
+    color: #5d60f2; /* Mantém a cor original */
+    font-size: 30px; /* Aumenta o tamanho da fonte para maior destaque */
+    text-align: center; /* Mantém o alinhamento centralizado */
+    font-weight: bold; /* Torna o texto mais robusto */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Aumenta o espaçamento entre letras para um visual mais elegante */
+    position: relative; /* Permite o uso de pseudo-elementos */
+    display: inline-block;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.Text-sobre h2::before, .Text-sobre h2::after {
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 40px;
+    background-color: #22ff00; /* Cor complementar para equilíbrio visual */
+    bottom: 0;
+}
+
+.Text-sobre h2::before {
+    left: 50%;
+    transform: translateX(-70px); /* Posiciona a linha à esquerda */
+}
+
+.Text-sobre h2::after {
+    right: 50%;
+    transform: translateX(70px); /* Posiciona a linha à direita */
+}
+
+.Text-sobre p {
+    color: #333;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.background-color-Contato {
+    background-color: #e0e0ff;
+    padding: 50px 20px; /* Ajuste conforme necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contato {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.Text-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Text-contato h2 {
+    color: #5d60f2;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #5d60f2;
+}
+
+.whatsapp-link i {
+    color: #000000;
+    margin-right: 3px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-media a:hover {
+    color: #5d60f2;
+}
+
+@media (max-width: 768px) {
+    .main-contato {
+        padding: 15px;
+    }
+
+    .Text-contato h2 {
+        font-size: 24px;
+    }
+
+    .contact-info p {
+        font-size: 14px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+        margin: 0 8px;
+    }
+}
+
+#titulo05 {
+    color: #5d60f2; /* Mantém a cor original para consistência */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte para mais destaque */
+    font-weight: bold; /* Torna o texto mais robusto */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 1.0px; /* Aumenta o espaçamento entre as letras para um visual mais refinado */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#titulo05::after {
+    content: '';
+    position: absolute;
+    width: 120px; /* Largura da linha decorativa */
+    height: 3px;
+    background-color: #22ff00;; /* Cor preta para contraste */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a linha abaixo do título */
+    border-radius: 2px; /* Suaviza as bordas da linha */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    text-align: left;
+}
+
+.text p {
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.text ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 30px;
+}
+.icon img {
+    width: 1800px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+/* Ajustar abaixo a div de Passo a Passo */
+
+
+.background-color-passo {
+    background-color: #e0e0ff; /* Define a cor de fundo */
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin-bottom: 60px; /* Adiciona espaço abaixo da seção */
+}
+
+.main-passo {
+    background-color: #e0e0ff; /* Define a cor de fundo */
+    display: flex;
+    flex-direction: column; /* Garante que o conteúdo será exibido em coluna */
+    align-items: center; /* Centraliza o conteúdo */
+}
+
+.passo-img {
+    width: 60%;
+    margin: 0 auto; /* Centraliza a imagem */
+    display: block;
+}
+.Text-passo {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    color: #FB9883;
+    font-size: 20px
+}
+html {
+    scroll-behavior: smooth;
+
+}
+
+.instruction {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 5px;
+}
+body {
+    background-color: #f7fdf3; /* Define a cor de fundo geral do corpo */
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin: 0; /* Remove margens das seções para evitar faixas de cor */
+    padding: 0;
+}
+
+.background-color-passo {
+    background-color: #f7fdf3; /* Define a cor de fundo da seção */
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 40px 0; /* Adiciona espaçamento interno */
+}
+.background-color-perguntas {
+    background-color: #f7fdf3; /* Define a cor de fundo */
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 15px; /* Adiciona espaçamento interno */
+    margin-bottom: 60px; /* Adiciona espaço abaixo da seção */
+}
+.background {
+    padding: 20px;
+}
+
+.cabeçalho-link {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho-link li {
+    margin: 0;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+nav ul li a {
+    color: #333; /* Cor do texto dos links */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+nav ul li:hover {
+    transform: scale(1.1);
+}
+nav ul li a:hover {
+    color: #000000; /* Cor de destaque ao passar o mouse */
+}
+.logo {
+    margin: 0;
+}
+.logo-img {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+}
+.subtitulo {
+    font-weight: bold;
+    color: #333; /* Cor preta */
+    font-size: 1.3em; /* Tamanho da fonte, ajuste conforme necessário */
+    margin-top: 20px; /* Espaçamento acima do subtítulo, ajuste conforme necessário */
+}
+
+.informacoes {
+    background-color: #f7fdf3; 
+    padding: 60px 40px; /* Aumenta o espaço interno para maior conforto visual */
+    text-align: center; /* Centraliza o conteúdo */
+    border-radius: 15px; /* Bordas arredondadas para suavizar o design */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+}
+
+.informacao-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #e0e0ff; /* Cor de fundo padrão */
+    transition: background-color 0.3s ease; /* Suave transição da cor */
+}
+
+.informacao-item h3 {
+    font-size: 1.9em; /* Aumenta o tamanho da fonte */
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+    text-transform: uppercase; /* Letra maiúscula para destaque */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+    position: relative;
+    display: inline-block;
+}
+
+.informacao-item h3::after {
+    content: '';
+    display: block;
+    width: 80px; /* Aumenta a largura da linha decorativa */
+    height: 4px;
+    background-color: #00fc58; /* Cor de destaque */
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.informacao-item p {
+    font-size: 1.2em; /* Aumenta o tamanho da fonte para maior destaque */
+    color: #000000; /* Cor de texto mais visível */
+    line-height: 1.8; /* Espaçamento maior entre linhas */
+    margin: 0 auto;
+    max-width: 800px; /* Limita a largura do texto para melhor leitura */
+}
+
+.informacao-item p {
+    font-size: 1.4em; /* Ajuste no tamanho da fonte para maior legibilidade */
+}
+
+.Main {
+    text-align: center;
+    padding: 160px 20px; /* Espaçamento interno ajustado */
+    background-color: #E9F5E9; /* Cor de fundo que pode ser facilmente alterada */
+    margin: 50px auto; /* Centraliza e espaça a seção em relação às outras */
+    max-width: 1500px; /* Largura máxima para manter o conteúdo centralizado */
+    transition: background-color 0.3s ease; /* Transição suave ao mudar a cor */
+}
+
+.main-title {
+    font-size: 2.2em;
+    font-weight: bold;
+    color: #000000; /* Cor branca para contrastar com o fundo */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1.5s ease-out forwards;
+}
+
+.sub-title {
+    font-size: 1.4em;
+    font-style: italic;
+    color: #000000; /* Subtítulo em uma cor suave para complementar o fundo */
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 40px; /* Ajuste o tamanho conforme necessário */
+    margin-right: 15px;
+    transition: transform 0.3s ease;
+}
+
+.cabeçalho-link a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #000000;
+    padding: 10px 5px;
+    border-radius: 7px;
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+
+.cabeçalho-link a:hover::before {
+    width: 100%; /* Linha aparece ao passar o mouse */
+}
+#titulo03 {
+    font-size: 1.5em; /* Aumenta o tamanho da fonte para maior destaque */
+    font-weight: bold;
+    color: #5d60f2; /* Cor preta para uma aparência clássica e profissional */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 1.0px; /* Aumenta o espaçamento entre letras para elegância */
+    margin-bottom: 34px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#titulo03::before {
+    content: '';
+    position: absolute;
+    width: 100px; /* Largura da linha decorativa */
+    height: 4px;
+    background-color: #22ff00; /* Cor da linha */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a linha abaixo do título */
+    border-radius: 2px; /* Bordas arredondadas para um visual suave */
+}
+.testimonial {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribui o conteúdo e empurra os nomes e estrelas para o final */
+    align-items: center;
+    min-height: 350px; /* Mantém a altura mínima consistente */
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    flex-grow: 1; /* Faz com que o texto ocupe o espaço disponível */
+}
+
+.reviewer {
+    font-weight: bold;
+    margin-bottom: 5px; /* Espaçamento entre o nome e as estrelas */
+}
+
+.stars {
+    margin-bottom: 10px; /* Espaço entre as estrelas e a borda inferior */
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.google-reviews-link {
+    display: inline-block;
+    background-color: #4285F4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.google-reviews-link:hover {
+    background-color: #357AE8;
+}
+
+@media (max-width: 768px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr; /* Ajusta para uma coluna em telas menores */
+    }
+}
+
+.logo-container2 {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100%; /* Certifique-se de que o contêiner tenha uma altura suficiente, ajuste conforme necessário */
+}
+
+.privacy-logo {
+    max-width: 400px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção do logo */
+}
+.background-image {
+    position: relative; /* Mantém o contexto de posicionamento */
+    padding: 50px 20px;
+    background-color: #E9F5E9; /* Cor de fundo da seção */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites da div */
+    min-height: 500px; /* Garante uma altura mínima da seção */
+}
+
+.background-img {
+    position: absolute; /* Posiciona a imagem em relação ao seu contêiner pai */
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    width: 530px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    opacity: 0.2; /* Transparência da imagem */
+    z-index: 1; /* Garante que a imagem apareça atrás do texto */
+    border-radius: 55px; /* Bordas arredondadas */
+    transform: translate(-50%, -50%); /* Centraliza a imagem de forma precisa */
+}
+
+@media (max-width: 768px) {
+    nav ul.cabeçalho-link {
+        display: none; /* Oculta o menu em telas menores */
+    }
+    .logo-container {
+        justify-content: center; /* Centraliza o logo */
+    }
+}
+@media (max-width: 768px) {
+    .main-sobre {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+    .main-sobre img {
+        width: 80%; /* Redimensiona a imagem */
+        margin: 0 auto 20px; /* Centraliza a imagem */
+    }
+    .Text-sobre {
+        max-width: 100%; /* Expande o texto */
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    nav ul.cabeçalho-link {
+        display: none; /* Oculta o menu em telas menores */
+    }
+    .logo-container {
+        justify-content: center; /* Centraliza o logo */
+        width: 100%; /* Garante que o logo ocupe o centro da tela */
+    }
+}
+/* Ajuste do menu para telas entre 769px e 1200px */
+@media (min-width: 769px) and (max-width: 1200px) {
+    nav ul.cabeçalho-link {
+        display: flex;
+        justify-content: space-evenly; /* Espaça os itens uniformemente */
+        flex-wrap: wrap; /* Permite quebrar em várias linhas, se necessário */
+        width: 100%; /* Garante que o menu ocupe toda a largura */
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav ul.cabeçalho-link li {
+        margin: 5px 10px; /* Adiciona espaçamento entre os itens */
+        text-align: center; /* Centraliza o texto */
+        flex-basis: calc(100% / 6); /* Ajusta a largura de cada item para caber no espaço */
+    }
+
+    nav ul.cabeçalho-link a {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+        padding: 8px 12px; /* Ajusta o padding */
+        white-space: nowrap; /* Garante que o texto "SOBRE MIM" não quebre em duas linhas */
+    }
+}
+
+/* Ajuste adicional para telas maiores */
+@media (min-width: 1201px) {
+    nav ul.cabeçalho-link a {
+        white-space: nowrap; /* Garante que o texto nunca quebre em várias linhas */
+    }
+}
+@media (max-width: 768px) {
+    .main-sobre {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        text-align: center; /* Centraliza o texto */
+    }
+    .main-sobre img {
+        width: 80%; /* Redimensiona a imagem para telas menores */
+        margin: 0 auto 20px; /* Centraliza a imagem */
+    }
+    .Text-sobre {
+        max-width: 100%; /* Expande o texto */
+        margin: 0 auto;
+    }
+    /* Ajuste específico para a seção "Como Funciona o Atendimento" */
+    .Text-mundo .content {
+        flex-direction: column; /* Alinha a imagem, título e texto em coluna */
+    }
+    .Text-mundo .icon img {
+        width: 80%; /* Ajuste do tamanho da imagem para telas menores */
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+    .Text-mundo .text {
+        text-align: center; /* Centraliza o texto */
+    }
+}
+
+
+/* Estilos para telas maiores e intermediárias */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f7fdf3;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.cabeçalho-link {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Garante que o menu quebre em múltiplas linhas quando necessário */
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centraliza os itens em múltiplas linhas */
+}
+
+.cabeçalho-link li {
+    margin: 0;
+}
+
+.cabeçalho-link a {
+    text-decoration: none;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #5d60f2;
+    padding: 10px 5px;
+    border-radius: 7px;
+    position: relative;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.cabeçalho-link a:hover {
+    color: #5d60f2;
+}
+
+.cabeçalho-link a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #22ff00;
+    transition: width 0.3s ease;
+}
+
+.cabeçalho-link a:hover::before {
+    width: 100%;
+}
+
+/* Ajuste para telas intermediárias (entre 768px e 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .cabeçalho-link {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .cabeçalho-link li {
+        margin: 0 5px;
+    }
+
+    .cabeçalho-link a {
+        font-size: 0.85em; /* Reduz o tamanho da fonte para caber melhor */
+        padding: 8px 10px;
+    }
+}
+
+/* Ajuste para telas menores (menu em múltiplas linhas) */
+@media (max-width: 768px) {
+    .cabeçalho-link {
+        display: flex;
+        flex-wrap: wrap; /* Garante que o menu quebre em múltiplas linhas */
+        justify-content: center;
+    }
+
+    .cabeçalho-link a {
+        font-size: 0.8em; /* Ajuste adicional de fonte para telas menores */
+        padding: 8px 5px; /* Ajusta o padding para que todos os itens caibam confortavelmente */
+    }
+}
+
+/* Ajuste para telas muito pequenas (somente logo) */
+@media (max-width: 600px) {
+    .cabeçalho-link {
+        display: none; /* Oculta o menu em telas muito pequenas */
+    }
+
+    .logo {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .logo-img {
+        margin: 0 auto;
+        display: block;
+    }
+}
+/* Estilos gerais para o rodapé */
+.footer-section {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f7fdf3;
+    font-size: 0.9em; /* Tamanho da fonte ajustado */
+    color: #333;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+}
+#titulo06 {
+    color: #5d60f2; /* Mantém a cor original para consistência */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte para mais destaque */
+    font-weight: bold; /* Torna o texto mais robusto */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 1.0px; /* Aumenta o espaçamento entre as letras para um visual mais refinado */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#titulo06::after {
+    content: '';
+    position: absolute;
+    width: 120px; /* Largura da linha decorativa */
+    height: 3px;
+    background-color: #22ff00;; /* Cor preta para contraste */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a linha abaixo do título */
+    border-radius: 2px; /* Suaviza as bordas da linha */
+}
+#titulo07 {
+    color: #5d60f2; /* Mantém a cor original para consistência */
+    font-size: 1.5em; /* Aumenta o tamanho da fonte para mais destaque */
+    font-weight: bold; /* Torna o texto mais robusto */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    letter-spacing: 1.0px; /* Aumenta o espaçamento entre as letras para um visual mais refinado */
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#titulo07::after {
+    content: '';
+    position: absolute;
+    width: 120px; /* Largura da linha decorativa */
+    height: 3px;
+    background-color: #22ff00;; /* Cor preta para contraste */
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); /* Centraliza a linha abaixo do título */
+    border-radius: 2px; /* Suaviza as bordas da linha */
+}
